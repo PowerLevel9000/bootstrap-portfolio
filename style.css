@@ -1,10 +1,12 @@
 .navbar-toggler {
   display: inline-block;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
-@media screen and (max-width:768px) {
-  .navbar-nav .desk{
+/* -----------------Media Query--------- */
+
+@media screen and (max-width: 768px) {
+  .navbar-nav .desk {
     display: none;
   }
 
